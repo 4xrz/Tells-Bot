@@ -1,0 +1,7 @@
+kvsqlite
+telebot
+pyTelegramBotAPI
+requests
+cloudscraper
+json
+flask
