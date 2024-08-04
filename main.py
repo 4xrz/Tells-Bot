@@ -2,10 +2,11 @@ import requests,os
 import uuid
 import json,random
 import cloudscraper
-from tellon import Info_Account
 from time import sleep
 from kvsqlite.sync import Client
 from telebot import *
+from keep_alive import keep_alive
+keep_alive()
 
 mi =types.InlineKeyboardMarkup(row_width=3)
 bannn = types.InlineKeyboardButton(text='حظر شخص ❌ ',callback_data='ban')
